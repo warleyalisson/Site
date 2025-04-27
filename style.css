@@ -54,16 +54,19 @@ body {
     text-decoration: none;
     font-weight: bold;
     transition: background 0.3s;
+    display: inline-block;
+    margin-top: 20px; /* espaço acima */
+    margin-bottom: 40px; /* novo espaço abaixo para evitar sobreposição */
 }
 
 .btn:hover {
     background-color: #e0a800;
 }
 
-/* Seções */
 .section {
-    padding: 60px 0;
+    padding: 80px 0; /* aumentei o espaçamento vertical */
 }
+
 
 .bg-light {
     background-color: #F5F2E7;
